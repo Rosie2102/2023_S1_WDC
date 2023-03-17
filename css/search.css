@@ -1,0 +1,72 @@
+html, body {
+    font-family: sans-serif;
+    margin:0;
+}
+a{
+
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+
+    text-decoration: underline;
+}
+header a, footer a{
+    display: inline-block;
+    padding:0.5em;
+}
+footer {
+    background-color: #eeeeee;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+.link-left a {
+    float:left;
+}
+.link-right a {
+    float:right;
+}
+main{
+    clear:both;
+    padding-top: 20%;
+}
+main button{
+    box-sizing:border-box;
+    text-align: center;
+    background-color: #dddddd;
+    border: 1px solid transparent;
+    border-radius: 0.3em;
+    padding: 0.7em 1.2em;
+    margin: 0 0.3em;
+
+}
+main button:hover{ 
+    border: 1px solid grey;
+    margin: none;
+
+}
+.centre{
+    text-align: centre;
+}
+.clear{
+    clear:both;
+}
+#logo-main {
+    width: 272px;
+    display: block;
+    margin:auto;
+}
+#search-main {
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin:auto;
+    border-radius: 1em;
+    border: 1px solid grey;
+    padding: 0.3em;
+}
+main div{
+    margin: 0.5em 0;
+
+}
